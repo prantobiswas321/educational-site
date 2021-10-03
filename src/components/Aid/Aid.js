@@ -6,7 +6,7 @@ const Aid = (props) => {
     return (
         <div className="col">
             <div className="card">
-                <img src={img} className="card-img-top mx-auto mt-3 img-fluid" style={{ width: "450px", height: "550px" }} alt="..." />
+                <img src={img} className="card-img-top mx-auto mt-3" style={{ width: "450px", height: "550px" }} alt="" />
                 <div className="card-body">
                     <h5 className="card-title fw-bold">Name: {name}</h5>
                     <p className="card-text">{sub}</p>

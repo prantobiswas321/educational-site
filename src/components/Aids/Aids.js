@@ -15,13 +15,13 @@ const Aids = () => {
             {
                 aids.length === 0
                     ?
-                    <div class="d-flex justify-content-center">
+                    <div className="d-flex justify-content-center">
                         <div class="spinner-border text-primary" role="status">
-                            <span class="visually-hidden">Loading...</span>
+                            <span className="visually-hidden">Loading...</span>
                         </div>
                     </div>
                     :
-                    <div className="row row-cols-1 row-cols-lg-3 g-4">
+                    <div className="row row-cols-1 row-cols-lg-3 g-3">
                         {
                             aids.map(aid => <Aid
                                 key={aid.id}
