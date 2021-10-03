@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "name": "Charlie Green",
+        "sub": "ENGLISH, MARKETING, MATHEMATICS",
+        "img": "https://images.unsplash.com/photo-1615109398623-88346a601842?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80",
+        "salary": 30
+    },
+    {
+        "id": 2,
+        "name": "Daniel Garrison",
+        "sub": "ORGANIC CHEMISTRY, PHYSICS, SOCIAL STUDIES",
+        "img": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+        "salary": 25
+    },
+    {
+        "id": 3,
+        "name": "Josh Summers",
+        "sub": "CODING, COMMUNICATION, COMPUTER SCIENCE",
+        "img": "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        "salary": 32
+    },
+    {
+        "id": 4,
+        "name": "Emma Landon",
+        "sub": "BIOLOGY, BUSINESS STUDY, CHEMISTRY",
+        "img": "https://www.physio-pedia.com/images/thumb/c/c1/Lonnemann_Bio_PHOTO_2017.jpg/600px-Lonnemann_Bio_PHOTO_2017.jpg",
+        "salary": 20
+    },
+    {
+        "id": 5,
+        "name": "Taylor Jones",
+        "sub": "COMPUTER SCIENCE, CREATIVE WRITING, ENGINEERING",
+        "img": "https://images.unsplash.com/photo-1582896911227-c966f6e7fb93?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=435&q=80",
+        "salary": 22
+    },
+    {
+        "id": 6,
+        "name": "Tom Hardy",
+        "sub": "ARCHITECTURE, BIOLOGY, BUSINESS STUDY",
+        "img": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80",
+        "salary": 26
+    },
+    {
+        "id": 7,
+        "name": "Robert Ervin Howard",
+        "sub": "ARCHITECTURE, SPANISH, WORLD HISTORY",
+        "img": "https://images.unsplash.com/photo-1596075780750-81249df16d19?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80",
+        "salary": 30
+    },
+    {
+        "id": 8,
+        "name": "Joe Russo",
+        "sub": "ENGLISH, MARKETING, MATHEMATICS",
+        "img": "https://images.unsplash.com/photo-1590086782957-93c06ef21604?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80",
+        "salary": 28
+    }
+]
