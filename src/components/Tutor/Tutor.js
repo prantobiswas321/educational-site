@@ -15,6 +15,7 @@ const Tutor = () => {
                             <button type="button" className="btn btn-success">Apply now</button>
                         </div>
                     </div>
+
                     <div className="col">
                         <div className="mt-4">
                             <h2 className="fw-bold">Skill Requirements</h2>

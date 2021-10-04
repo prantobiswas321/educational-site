@@ -1,8 +1,9 @@
 import React from 'react';
 
 const FourServices = (props) => {
+    // distructuring object
     const { name, sub, img, salary } = props.aid;
-    console.log(props);
+
     return (
         <div className="col">
             <div className="card-color text-center">

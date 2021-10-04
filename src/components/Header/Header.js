@@ -10,12 +10,13 @@ const Header = () => {
         fontWeight: "bold",
         color: "#5CDB95"
     }
-    const icon = <FontAwesomeIcon icon={faBrain} />
+    // react awesome icon
+    const iconBrain = <FontAwesomeIcon icon={faBrain} />
 
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-color">
             <div className="container">
-                <h2 className="fw-bold header-text-color">{icon} BrilliantBrain</h2>
+                <h2 className="fw-bold header-text-color">{iconBrain} BrilliantBrain</h2>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>

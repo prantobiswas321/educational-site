@@ -2,8 +2,8 @@ import React from 'react';
 import './Aid.css';
 
 const Aid = (props) => {
+    // distructuring object
     const { name, sub, img, salary } = props.aid;
-    // console.log(props.aid);
     return (
         <div className="col">
             <div className="card-color text-center">
