@@ -17,8 +17,8 @@ const Header = () => {
                     <div className="ms-auto fs-5 fw-bold navbar-nav">
                         <NavLink activeStyle={activeStyle} className="nav-link" to="/home">Home</NavLink>
                         <NavLink activeStyle={activeStyle} className="nav-link" to="/aids">Services</NavLink>
-                        <NavLink activeStyle={activeStyle} className="nav-link" to="/about">About</NavLink>
                         <NavLink activeStyle={activeStyle} className="nav-link" to="/tutor">Become a tutor</NavLink>
+                        <NavLink activeStyle={activeStyle} className="nav-link" to="/about">About</NavLink>
                     </div>
                 </div>
             </div>

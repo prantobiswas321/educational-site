@@ -10,8 +10,8 @@ const Aids = () => {
             .then(data => setAids(data))
     }, [])
     return (
-        <div className="mx-2 mt-5">
-            <h2 className="fw-bold mb-5">Find Your Tutor</h2>
+        <div className="mx-2">
+            <h2 className="fw-bold my-5 text-center">Find Your Tutor</h2>
             {
                 aids.length === 0
                     ?
