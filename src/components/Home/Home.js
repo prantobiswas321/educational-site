@@ -18,8 +18,8 @@ const Home = () => {
 
     return (
         <div>
-            <div className="home-bg home-text text-center p-5">
-                <p className="fs-5">Personal & Online Tutor</p>
+            <div className="home-bg home-text text-center">
+                <p className="fs-6 fw-bold">Personal & Online Tutor</p>
                 <h1 className="fw-bolder">Time To Learn</h1>
             </div>
             {
@@ -33,7 +33,7 @@ const Home = () => {
                     :
                     <div>
                         <h3 className="text-center mt-5 fw-bold home-text">Our Best Tutors</h3>
-                        <div className="mx-1 mt-4 row row-cols-1 row-cols-lg-3 g-3">
+                        <div className="mx-1 mt-4 row  g-5">
                             {
                                 // mapping for showing 4 objects in homepage
                                 result.map(aid => <FourServices
