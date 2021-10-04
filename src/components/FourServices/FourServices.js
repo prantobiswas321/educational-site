@@ -6,7 +6,7 @@ const FourServices = (props) => {
     const { name, sub, img, salary } = props.aid;
 
     return (
-        <div className="col col-lg-3">
+        <div className="col col-md-6 col-lg-3">
             <div className="card-stuff text-center">
                 <img src={img} className="card-img-top mx-auto mt-3" style={{ width: "220px", height: "320px" }} alt="" />
                 <div className="mt-3">
