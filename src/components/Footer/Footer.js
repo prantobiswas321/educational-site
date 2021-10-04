@@ -9,19 +9,19 @@ const Footer = () => {
     const iconMail = <FontAwesomeIcon icon={faEnvelope} />
     const iconPhone = <FontAwesomeIcon icon={faPhoneSquare} />
     return (
-        <div className="bg-primary text-white mt-5">
+        <div className="header-text-color mt-5 bg-color">
             <div className="container p-5 d-flex flex-column flex-lg-row justify-content-lg-between bd-highlight mt-5">
                 <div>
-                    <h3 className="fw-bold text-white">{icon} BrilliantBrain</h3>
+                    <h3 className="fw-bold">{icon} BrilliantBrain</h3>
                     <p>We worked for quality education</p>
                 </div>
                 <div className="mb-3">
                     <h4 className="fw-bold">Quick links</h4>
                     <nav className="navbar-nav">
-                        <NavLink style={{ textDecoration: 'none', color: 'white' }} to='/home'>Home</NavLink>
-                        <NavLink style={{ textDecoration: 'none', color: 'white' }} to='/aids'>Services</NavLink>
-                        <NavLink style={{ textDecoration: 'none', color: 'white' }} to='/tutor'>Become a tutor</NavLink>
-                        <NavLink style={{ textDecoration: 'none', color: 'white' }} to='/about'>About</NavLink>
+                        <NavLink style={{ textDecoration: 'none', color: '#5CDB95' }} to='/home'>Home</NavLink>
+                        <NavLink style={{ textDecoration: 'none', color: '#5CDB95' }} to='/aids'>Services</NavLink>
+                        <NavLink style={{ textDecoration: 'none', color: '#5CDB95' }} to='/tutor'>Become a tutor</NavLink>
+                        <NavLink style={{ textDecoration: 'none', color: '#5CDB95' }} to='/about'>About</NavLink>
                     </nav>
                 </div>
                 <div>

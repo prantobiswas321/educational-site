@@ -2,7 +2,7 @@ import React from 'react';
 
 const Tutor = () => {
     return (
-        <div>
+        <div className="home-text">
             <div className="container my-5">
                 <div className="row row-cols-1 row-cols-lg-2 g-5 my-5">
                     <div className="col">
@@ -12,7 +12,7 @@ const Tutor = () => {
                             <p>Private tutoring is not always effective in raising academic achievement; and in some schools students commonly skip classes or sleep through lessons because they are tired after excessive external study. This means that the shadow system can make regular schooling less efficient.
 
                                 Teachers who spend more time focusing on private lessons than regular classes can cause greater inefficiencies in the mainstream school system. Situations in which teachers provide extra private lessons for pupils for whom they are already responsible in the public system can lead to corruption.</p>
-                            <button type="button" className="btn btn-primary">Apply now</button>
+                            <button type="button" className="btn btn-success">Apply now</button>
                         </div>
                     </div>
                     <div className="col">
@@ -37,7 +37,7 @@ const Tutor = () => {
                 <h5>Call Us 888-000-999</h5>
                 <h1>Questions About Hiring?</h1>
                 <p><small>Our staff can help you with the process of becoming a tutor</small></p>
-                <button type="button" className="btn btn-primary">SET AN INTERVIEW</button>
+                <button type="button" className="btn btn-success">SET AN INTERVIEW</button>
             </div>
         </div>
     );

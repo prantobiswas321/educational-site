@@ -11,7 +11,7 @@ const Aids = () => {
     }, [])
     return (
         <div className="mx-2">
-            <h2 className="fw-bold my-5 text-center">Find Your Tutor</h2>
+            <h2 className="fw-bold my-5 home-text text-center">Find Your Tutor</h2>
             {
                 aids.length === 0
                     ?
@@ -21,7 +21,7 @@ const Aids = () => {
                         </div>
                     </div>
                     :
-                    <div className="row row-cols-1 row-cols-lg-3 g-3">
+                    <div className="row row-cols-1 row-cols-md-3 row-cols-lg-3 g-3">
                         {
                             aids.map(aid => <Aid
                                 key={aid.id}
