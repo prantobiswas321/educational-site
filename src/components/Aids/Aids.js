@@ -16,7 +16,7 @@ const Aids = () => {
                 aids.length === 0
                     ?
                     <div className="d-flex justify-content-center">
-                        <div class="spinner-border text-primary" role="status">
+                        <div className="spinner-border text-primary" role="status">
                             <span className="visually-hidden">Loading...</span>
                         </div>
                     </div>

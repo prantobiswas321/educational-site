@@ -1,12 +1,18 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBrain, faMapMarkedAlt, faEnvelope, faPhoneSquare } from '@fortawesome/free-solid-svg-icons';
 
 const Footer = () => {
+    const icon = <FontAwesomeIcon icon={faBrain} />
+    const iconLocation = <FontAwesomeIcon icon={faMapMarkedAlt} />
+    const iconMail = <FontAwesomeIcon icon={faEnvelope} />
+    const iconPhone = <FontAwesomeIcon icon={faPhoneSquare} />
     return (
         <div className="bg-primary text-white mt-5">
             <div className="container p-5 d-flex flex-column flex-lg-row justify-content-lg-between bd-highlight mt-5">
                 <div>
-                    <h3 className="fw-bold text-white">BrilliantBrain</h3>
+                    <h3 className="fw-bold text-white">{icon} BrilliantBrain</h3>
                     <p>We worked for quality education</p>
                 </div>
                 <div className="mb-3">
@@ -21,9 +27,9 @@ const Footer = () => {
                 <div>
                     <h4 className="fw-bold">Contact Us</h4>
                     <div>
-                        <p>350 Avenue, New York, NY 10001<br />
-                            info@example.com<br />
-                            888-000-999</p>
+                        <p>{iconLocation} 350 Avenue, New York, NY 10001<br />
+                            {iconMail} info@example.com<br />
+                            {iconPhone} 888-000-999</p>
                     </div>
                 </div>
             </div>

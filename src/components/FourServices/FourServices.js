@@ -1,10 +1,10 @@
 import React from 'react';
 
-const Aid = (props) => {
+const FourServices = (props) => {
     const { name, sub, img, salary } = props.aid;
-    // console.log(props.aid);
+    console.log(props);
     return (
-        <div className="col">
+        <div className="col mt-4">
             <div className="card text-center">
                 <img src={img} className="card-img-top mx-auto mt-3" style={{ width: "450px", height: "550px" }} alt="" />
                 <div className="card-body">
@@ -19,4 +19,4 @@ const Aid = (props) => {
     );
 };
 
-export default Aid;
+export default FourServices;
